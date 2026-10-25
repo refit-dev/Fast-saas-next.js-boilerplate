@@ -8,7 +8,7 @@ import prisma from "./utils";
 //price_1NarR3APMZcBliJSoefCKTi5
 
 export const stripe = new Stripe(process.env.STRIPE_SK!, {
-  apiVersion: "2024-06-20",
+  apiVersion: "2026-09-30.endive",
 });
 
 export async function hasSubscription() {
